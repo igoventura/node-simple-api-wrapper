@@ -1,6 +1,6 @@
-import { appEntrypoint } from './attributes';
+import { appEntrypoint } from './lib/attributes';
 import { HelloWorldController, SumController } from './controllers';
-import { BaseApplication } from './extensions';
+import { BaseApplication } from './lib/extensions';
 import { MathService } from './services/math.service';
 
 @appEntrypoint([

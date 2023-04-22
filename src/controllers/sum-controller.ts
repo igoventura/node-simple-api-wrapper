@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { httpController, httpGet } from '../attributes';
+import { httpController, httpGet } from '../lib/attributes';
 import { inject, injectable } from 'inversify';
 import { MathService } from '../services/math.service';
 
