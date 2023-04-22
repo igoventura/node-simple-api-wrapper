@@ -1,3 +1,3 @@
-export const Symbols = {
+export default {
     AppConfig: Symbol.for('AppConfig'),
 }

@@ -1,7 +1,8 @@
 import 'reflect-metadata';
 import { Request, Response, Application } from 'express';
 
-import { Symbols, container } from '../dependency-injection/base';
+import { container } from '../dependency-injection/base';
+import Symbols from '../dependency-injection/base/symbols';
 import { Constructor } from '../types';
 import { Server } from 'http';
 
